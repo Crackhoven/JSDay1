@@ -32,9 +32,18 @@ var mul_array = [
   [3, 5, 26, 3],
 ];
 document.write(mul_array.join("<br>"));
-// "The Output" 11, 25, 17, 27 and 0 in the console.
+// "The Output" 11, 25, 17, 27 and 0 in the console. 1 per line
 console.log(mul_array[1][1]);
 console.log(mul_array[4][2]);
 console.log(mul_array[5][3]);
 console.log(mul_array[2][3]);
 console.log(mul_array[2][1]);
+console.log("=================================");
+// "The Output" 11, 25, 17, 27 and 0 in the console. All in one line
+console.log(
+  mul_array[1][1],
+  mul_array[4][2],
+  mul_array[5][3],
+  mul_array[2][3],
+  mul_array[2][1]
+);
