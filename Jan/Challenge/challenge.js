@@ -2,5 +2,5 @@ let str = "Properties,$a$set$of$immutable$values,$are$passed$to$a$component's$re
 console.log('Original String', str)
 
 
-let newStr = str.replace(/[^a-zA-Z0-9 ]/g, ' ');
+let newStr = str.replace(/[^a-zA-Z0-9\,\.\' ]/g, ' ');
 console.log('After RegEx', newStr);
