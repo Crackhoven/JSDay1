@@ -21,3 +21,20 @@ document.write(sum_e1 / mul_e1);
 document.write("<hr>");
 //==============================
 //Excercise 2
+document.write("The Multi Array <br>");
+var mul_array = [
+  [1, 2, 1, 24],
+  [8, 11, 9, 4],
+  [7, 0, 7, 27],
+  [7, 4, 28, 14],
+  [3, 10, 25, 7],
+  [21, 4, 6, 17],
+  [3, 5, 26, 3],
+];
+document.write(mul_array.join("<br>"));
+// "The Output" 11, 25, 17, 27 and 0 in the console.
+console.log(mul_array[1][1]);
+console.log(mul_array[4][2]);
+console.log(mul_array[5][3]);
+console.log(mul_array[2][3]);
+console.log(mul_array[2][1]);
